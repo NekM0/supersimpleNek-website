@@ -1,0 +1,160 @@
+/* .sidebar{
+  opacity: 0;
+} */
+
+.hamburger{
+  font-size: 17px;
+  color: rgb(245, 245, 245);
+  margin-top: 6px;
+  margin-left: 18px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.hamburger:hover{
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.sidebar{
+  background-color: rgb(32, 32, 32);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding-left: 0px;
+}
+.profile-sec{
+  padding-left: 20px;
+}
+.about-sec{
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 12px;
+}
+.name-render{
+  font-size: 20px;
+  font-weight: 400;
+  height: 54px;
+  width: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(92, 59, 113);
+  border-radius: 27px;
+  margin-right: 10px;
+}
+.name{
+  font-weight: 400;
+  margin-right: 30px;
+  color: whitesmoke;
+  font-size: 14px;
+}
+.name p{
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.search-bar{
+  background-color: transparent;
+  border: 1px solid rgb(216, 196, 196);
+  border-bottom-width: 1.5px;
+  border-color:rgb(74, 71, 71);
+  border-bottom-color:rgb(212, 209, 209);
+  border-radius: 4px;
+  padding: 6px 6px;
+  font-size: 16px;
+  border-left-width: none;
+  color: white;
+  width: 215px;
+}
+
+.search-bar::placeholder{
+  color:rgb(212, 209, 209);
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.input-container{
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.search-icon{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+
+
+.tasks-section{
+  display: flex;
+  flex-direction: column;
+}
+.task-options{
+  display: flex;
+  padding: 10px 15px;
+  margin-left: 5px;
+  font-weight: 350;
+  font-size: 15px;
+  color: rgb(233, 227, 227);
+  cursor: pointer;
+}
+
+.task-options i{
+  width: 20px;
+  margin-right: 16px;
+  color: rgb(112, 169, 156);
+}
+
+.task-options img{
+  width: 20px;
+  margin-right: 16px;
+}
+
+.task-options:hover{
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.getting{
+  border: 1px solid rgb(102, 97, 97);;
+  border-bottom-color: rgb(32, 32, 32);
+  border-left-color: rgb(32, 32, 32);
+}
+.getting i{
+  color: rgb(239, 199, 79);
+}
+
+
+.new-list{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.new-list i{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.para{
+  margin-left: 15px;
+  font-weight: 350;
+}
+.add-icon{
+  flex: 1;
+  text-align: end;
+}
+
+.new-list:hover{
+  background-color: rgba(255, 255, 255, 0.15);
+}
